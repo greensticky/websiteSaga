@@ -247,6 +247,16 @@ a:visited {
 #menu td .tdSushi {
 	background-image:url(Images/banner-aqua.png);
 }
+#menu td .tdDinnerTop {
+	background-image:url(Images/banner-g2br.png);
+}
+#menu td .tdTeppanTop {
+	background-image:url(Images/banner-br2r.png);
+}
+#menu td .tdSushiTop {
+	background-image:url(Images/banner-r2b.png);
+}
+
 
 #menu span {
 	font-weight:400;
