@@ -1,5 +1,6 @@
 /* CSS layout */
 @import url(http://fonts.googleapis.com/css?family=Marck+Script);
+@import url(http://fonts.googleapis.com/css?family=Bilbo);
 
 html {
      margin: 0px;
@@ -115,7 +116,6 @@ body {
 	-webkit-box-shadow: 0px 9px 33px rgba(0, 0, 0, 1);
 	-moz-box-shadow:    0px 9px 33px rgba(0, 0, 0, 1);
 	box-shadow:         0px 9px 33px rgba(0, 0, 0, 1);
-	font-family: 'Marck Script', cursive;
 }
 
 
@@ -205,6 +205,8 @@ a:visited {
 .reviewsBox {
 	font-size:large;
 	font-weight:bold;
+	font-family: 'Marck Script', cursive;
+	font-size: 26px;
     text-align:center;
 	text-shadow: -3px 2px 7px rgba(0, 0, 0, 0.8)!important;
     width:98%;
@@ -367,7 +369,9 @@ overflow:hidden;
 .spotlightmenu ul{
 margin: 0;
 padding: 0;
-font: bold 14px Verdana; /* font style and size */
+font-family: 'Marck Script', cursive;
+font-size: 26px;
+/* font: bold 26px;/* Verdana;  /* font style and size */
 list-style-type: none;
 text-align: center; /* "left", "center", or "right" align menu */
 }
@@ -408,5 +412,5 @@ border-radius: 50%;
 
 .spotlightmenu li a span{
 position:relative;
-top:35%; /* move text down so it appears centered within menu item */
+top:20%; /* move text down so it appears centered within menu item */
 }
