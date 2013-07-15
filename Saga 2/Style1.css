@@ -130,15 +130,22 @@ a {
 }
 
 a:visited {
-	color: #ACC;
+	/*color: #ACC;*/
 }
 
 .currentPage {
-	text-shadow: 0px 0px 20px rgba(255,255,255, 1);
+/*	text-shadow: 0px 0px 20px rgba(255,255,255, 1);
 	color:#FFF!important;
+*/
+	color: #355!important;
+	background: #EEE; /* background color of spotlight */
+	-webkit-border-radius: 50%; /* large radius to create circular borders */
+	-moz-border-radius: 50%;
+	border-radius: 50%;
 }
+
 .currentPage:hover {
-	color:#CCC;
+	color:#CCC!important;
 }
 
 .hoursBox {
@@ -167,6 +174,7 @@ a:visited {
 	-moz-box-shadow:    0px 1px 33px rgba(50, 41, 50, 1);
 	box-shadow:         0px 1px 33px rgba(50, 41, 50, 1);  
 }
+
 .hoursBox h4 {
 	padding-left:1%;
 	padding-right:1%;
@@ -355,6 +363,7 @@ a:visited {
     display: inline-block;
     text-align:center;
 	margin:0;
+	margin-top: 2%;
     padding-right:0;
 	padding-left:0;
 	padding-top:1%;
@@ -370,6 +379,8 @@ a:visited {
     -webkit-box-shadow: 0px 1px 33px rgba(50, 41, 50, 1);
 	-moz-box-shadow:    0px 1px 33px rgba(50, 41, 50, 1);
 	box-shadow:         0px 1px 33px rgba(50, 41, 50, 1);  
+
+	background-image: url(Images/leather.png)!important;
 }
 
 img {
@@ -410,7 +421,7 @@ table img:hover {
 }
  
 .announcement {
-	color:#FF9999!important;
+	color:#FF9999;
 }
 
 .roundedGreen {
@@ -493,7 +504,7 @@ transition: all 0.3s ease-in-out;
 }
 
 .spotlightmenu li:hover a{
-color: #355!important;
+color: #355;
 background: #EEE; /* background color of spotlight */
 -webkit-border-radius: 50%; /* large radius to create circular borders */
 -moz-border-radius: 50%;
