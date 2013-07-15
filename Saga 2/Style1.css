@@ -1,4 +1,6 @@
 /* CSS layout */
+@import url(http://fonts.googleapis.com/css?family=Marck+Script);
+
 html {
      margin: 0px;
 } 
@@ -113,6 +115,7 @@ body {
 	-webkit-box-shadow: 0px 9px 33px rgba(0, 0, 0, 1);
 	-moz-box-shadow:    0px 9px 33px rgba(0, 0, 0, 1);
 	box-shadow:         0px 9px 33px rgba(0, 0, 0, 1);
+	font-family: 'Marck Script', cursive;
 }
 
 
