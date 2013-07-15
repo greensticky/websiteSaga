@@ -1,6 +1,10 @@
 /* CSS layout */
-@import url(http://fonts.googleapis.com/css?family=Marck+Script);
-@import url(http://fonts.googleapis.com/css?family=Bilbo);
+
+/*@import url(http://fonts.googleapis.com/css?family=Niconne);*/
+/*@import url(http://fonts.googleapis.com/css?family=Marck+Script);*/
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(http://fonts.googleapis.com/css?family=Delius);
+@import url(http://fonts.googleapis.com/css?family=Merienda+One);
 
 html {
      margin: 0px;
@@ -138,6 +142,10 @@ a:visited {
 }
 
 .hoursBox {
+	margin: 0;
+	padding: 0;
+	font-family: 'Delius', cursive;
+	font-size: 14px;
     width:98%;
     display: inline-block;
     text-align:center;
@@ -172,8 +180,9 @@ a:visited {
 	padding-top:5%;
 	padding-bottom:5%;
     
-	font-size:large;
-	font-weight:bold;
+	font-weight:200;
+	font-family: 'Merienda One', cursive;
+	font-size: 20px;
     text-align:center;
 	text-shadow: -3px 2px 7px rgba(0, 0, 0, 0.8)!important;
     
@@ -195,21 +204,67 @@ a:visited {
 
 
 #menu {
-	margin-top:2%;
+	margin-top:1%;
 	margin-left: 4%;
 	margin-right: 2%;
 	margin-bottom: 2%;
     text-shadow: -3px 2px 7px rgba(0, 0, 0, 1);
+    font-family: 'Kaushan Script', cursive;
+	font-weight: 300;
+	/*font-size: 20px;*/
+}
+
+#menu span {
+	font-weight:400;
+	font-family: 'Delius', cursive;
+	padding-top:0;
+	padding-bottom:0;
+	margin:0;
+	margin-bottom:2px;
+}
+
+#menu h2, h3, h4, h5 {
+	padding-left:2%;
+	padding-right:2%;
+}
+
+#menu h1 {
+	font-size: 52px;
+	padding-top:4px;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+#menu h2 {
+	font-size: 36px;
+	padding-top:0;
+	padding-bottom:0;
+	margin:0;
+}
+#menu h3 {
+	font-size: 22px;
+	padding-top:3%;
+	padding-bottom:0;;
+	margin: 0;
+}
+#menu h4 {
+	padding-top:3%;
+	padding-bottom:0;
+	margin:0;
+}
+#menu h5 {
+	padding-top:0;
+	padding-bottom:0;
+	margin:0;
 }
 
 .reviewsBox {
-	font-size:large;
-	font-weight:bold;
-	font-family: 'Marck Script', cursive;
-	font-size: 26px;
+	/*font-size:large;*/
+	font-weight:400;
+	font-family: 'Merienda One', cursive;
+	font-size: 22px;
     text-align:center;
 	text-shadow: -3px 2px 7px rgba(0, 0, 0, 0.8)!important;
-    width:98%;
+    width:90%;
     display: inline-block;
     text-align:center;
 	margin:0;
@@ -230,12 +285,15 @@ a:visited {
 	box-shadow:         0px 1px 33px rgba(50, 41, 50, 1);  
 }
 .reviewsBox p {
-	padding-left:4%;
-	padding-right:4%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:0;
+	padding-bottom:0;
 }
 .mapBox {
-	font-size:large;
-	font-weight:bold;
+	font-weight:200;
+	font-family: 'Delius', cursive;
+	font-size:20px;
     text-align:center;
 	text-shadow: -3px 2px 7px rgba(0, 0, 0, 0.8)!important;
     width:98%;
@@ -333,16 +391,21 @@ table img:hover {
 	border-top-left-radius:35px;
 	border-top-right-radius:35px;
 	background-image:url(Images/banner-green.png);	
-	padding:0px;
-	margin:0px;
+	padding:0;
+	margin:0;
 }
 .roundedAqua {
 	display: block;
-	border-bottom-left-radius:75px;
-	border-bottom-right-radius:75px;
+	border-collapse: collapse;
+	font-weight:400;
+	font-family: 'Delius', cursive;
+	font-size:16px;
+	border-bottom-left-radius:55px;
+	border-bottom-right-radius:55px;
 	background-image:url(Images/banner-aqua.png);	
-	padding:0px;
-	margin:0px;
+	padding:0;
+	margin:0;
+	border:0;
 }
 
 hr.style-eight {
@@ -369,8 +432,8 @@ overflow:hidden;
 .spotlightmenu ul{
 margin: 0;
 padding: 0;
-font-family: 'Marck Script', cursive;
-font-size: 26px;
+font-family: 'Kaushan Script', cursive;
+font-size: 20px;
 /* font: bold 26px;/* Verdana;  /* font style and size */
 list-style-type: none;
 text-align: center; /* "left", "center", or "right" align menu */
