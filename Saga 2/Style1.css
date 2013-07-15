@@ -211,7 +211,33 @@ a:visited {
     text-shadow: -3px 2px 7px rgba(0, 0, 0, 1);
     font-family: 'Kaushan Script', cursive;
 	font-weight: 300;
-	/*font-size: 20px;*/
+}
+#menu td {
+	vertical-align: top;
+}
+
+#menu td .tdTop {
+	border-top-left-radius:35px;
+	border-top-right-radius:35px;
+	background-image:url(Images/banner-green.png);
+}
+
+#menu td .tdBottom {
+	border-bottom-left-radius:35px;
+	border-bottom-right-radius:35px;
+	background-image:url(Images/banner-aqua.png);
+}
+#menu td .tdApps {
+	background-image:url(Images/banner-green.png);
+}
+#menu td .tdDinner {
+	background-image:url(Images/banner-brown.png);
+}
+#menu td .tdTeppan {
+	background-image:url(Images/banner-red.png);
+}
+#menu td .tdSushi {
+	background-image:url(Images/banner-aqua.png);
 }
 
 #menu span {
